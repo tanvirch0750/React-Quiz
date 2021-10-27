@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "../../components/button/Button";
 import CheckBox from "../../components/checkbox/CheckBox";
 import Form from "../../components/form/Form";
@@ -30,7 +31,7 @@ export default function Signup() {
           </Button>
 
           <div className="info">
-            Already have an account? <a href="login.html">Login</a> instead.
+            Already have an account? <Link to="/login">Login</Link> instead.
           </div>
         </Form>
       </div>
