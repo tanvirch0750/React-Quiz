@@ -1,5 +1,5 @@
 /* videos component */
-.videos {
+/* .videos {
   width: 100%;
   display: grid;
   margin: 3rem auto;
@@ -7,10 +7,10 @@
   justify-items: center;
   gap: 20px;
   row-gap: 20px;
-}
+} */
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .videos {
     width: 90%;
   }
-}
+} */
